@@ -40,3 +40,19 @@
   right: 5px;
   cursor: pointer;
 }
+
+@media screen and (max-width:768px){
+  .cabecalho h2{
+    display: none;
+  }
+}
+
+@media screen and (max-width:430px){
+  .cabecalho{
+    width: 100%;
+    justify-content: center;
+  }
+  .cabecalho__pesquisa{
+    display: none;
+  }
+}

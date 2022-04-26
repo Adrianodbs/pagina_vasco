@@ -18,3 +18,21 @@
 .sub-header__tour{
   width: 250px;
 }
+
+@media screen and (max-width:768px){
+  .sub-header{
+    flex-direction: column;
+  }
+
+  .sub-header h1{
+    margin-bottom: 20px;
+  }
+
+  .sub-header__tour{
+    display: none;
+  }
+
+  .sub-header__cruz{
+    margin-left: 0;
+  }
+}

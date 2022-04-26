@@ -44,3 +44,22 @@
   font-size: 20px;
   font-weight: 500;
 }
+
+@media screen and (max-width:900px){
+  .destaques{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .destaque__card-1, .destaque__card-2{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:430px){
+  .destaque__card-texto h2{
+    font-size: 35px;
+  }
+}

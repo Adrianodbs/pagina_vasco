@@ -13,3 +13,15 @@
   line-height: 53px;
   padding: 60px 0;
 }
+
+@media screen and (max-width:1024px){
+  .lema{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:768px){
+  .lema h1{
+    font-size: 32px;
+  }
+}

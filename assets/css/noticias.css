@@ -80,3 +80,21 @@
   padding: 10px 15px;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width:1024px){
+  .noticias__card{
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:768px){
+  .noticias__card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .noticias__card .card, .noticias__tabela{
+    width: 90%;
+  }
+}
