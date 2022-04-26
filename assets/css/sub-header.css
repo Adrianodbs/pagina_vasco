@@ -1,0 +1,20 @@
+.sub-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  width: 100%;
+}
+
+.sub-header h1{
+  font-size: 30px;
+}
+
+.sub-header__cruz{
+  width: 100px;
+ margin-left: 50px;
+}
+
+.sub-header__tour{
+  width: 250px;
+}
