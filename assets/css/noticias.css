@@ -74,11 +74,17 @@
 .noticias__link{
   margin-top: 30px;
   background: linear-gradient(to right, #EA5F33, #E41B2D);
+  border-radius: 8px;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
   padding: 10px 15px;
   margin-bottom: 50px;
+  transition: all .2s;
+}
+
+.noticias__link:hover{
+  transform: scale(1.1);
 }
 
 @media screen and (max-width:1024px){
